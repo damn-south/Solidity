@@ -1,0 +1,26 @@
+//SPDX-License-Identifier:MIT
+pragma solidity ^0.8.13;
+ contract helloworld {
+     string public getstarted="Hi Welcome you to the random lucky number generator";
+
+    uint public yourluckynum;
+    
+    
+
+    // Function to get the current count
+    function get() public view returns (uint) {
+        return yourluckynum ;
+    }
+
+    // Function to increment count by 1
+    function /*inc()*/luckynum() public {
+        yourluckynum += 7;
+        yourluckynum *= 2;
+        yourluckynum -= 3;
+        yourluckynum += 2;
+        
+    }
+    function /*dec()*/reset() public {
+       yourluckynum *= 0;
+    }
+ }
