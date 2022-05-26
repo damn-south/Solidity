@@ -1,0 +1,20 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.8.13;
+
+contract basic_calc{
+    function add(uint a, uint b) external pure returns(uint) {
+        return a + b; 
+    }
+    function sub(uint a, uint b) external pure returns(uint) {
+        return a - b; 
+    }
+    function multi(uint a, uint b) external pure returns(uint) {
+        return a * b; 
+    }
+    function div(uint a, uint b) external pure returns(uint) {
+        return a / b; 
+    }
+    function exp(uint a, uint b) external pure returns(uint) {
+        return a ** b; 
+    }
+}
