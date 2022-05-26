@@ -5,7 +5,7 @@ contract basic_calc{
     function add(uint a, uint b) external pure returns(uint) {
         return a + b; 
     }
-    function sub(uint a, uint b) external pure returns(uint) {
+    function sub(int a, int b) external pure returns(int) {
         return a - b; 
     }
     function multi(uint a, uint b) external pure returns(uint) {
